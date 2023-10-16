@@ -1,45 +1,54 @@
-# ALL THE FOOD
+# ALL THE FOOD: Admin Site
 
 ## Record Types
 
-|     ATF_Category        |
-| ----------------------- |
-| **id:** `Integer: PK`     |
-| **categoryName:** String|
+### ATF_Category  
+|    Name          |   DataType    |
+| ---------------- | ------------- |
+|  **id**          | `Integer: PK` |
+| **categoryName** | `String`      |
 
 
-|        ATF_Size           |
-| ---------------------     |
-| **id:** `Integer: PK`     |
-| **size:** `String`        |
+### ATF_Size
+
+|    Name          |   DataType    |
+| ---------------- | ------------- |
+| **id**           | `Integer: PK` |
+| **size**         | `String`      |
 
 
-|        ATF_Item             |
-| --------------------------- |
-| **id:** `Integer: PK`       |
-| **name:** `String`          |
-| **price:** `Decimal`        |
-| **description:** `String`   |
-| **image:** `Integer`        |
-| **sizeId:** `Interger: FK`   |
-| **categoryId:** `Integer: FK`|
+### ATF_Item
 
-|      ATF_Order              |
-| --------------------------- |
-| **id:** `Integer: PK`       |
-| **customerName:** `String`  |
-| **orderTotal:** `Integer`   |
-| **orderStatus:** `String`   |
-| **numberofItems:** `Integer`|
+|    Name          |   DataType    |
+| ---------------- | ------------- |
+| **id**           |  `Integer: PK`|
+| **name**         |  `String`     |
+| **price**        |  `Decimal`    |
+| **description**  |  `String`     |
+| **image**        |  `Integer`    |
+| **sizeId**       |  `Integer: FK`|
+| **categoryId**   |  `Integer: FK`|
+
+### ATF_Order
+
+|    Name           |   DataType     |
+| ----------------- | -------------- |
+| **id:**           |  `Integer: PK` |
+| **customerName:** |  `String`      |
+| **orderTotal:**   |  `Integer`     |
+| **orderStatus:**  |  `String`      |
+| **numberofItems:**| `Integer`      |
 
 
 **Many to many Relationship**
 
-|      ATF_OrderItem          |
-| --------------------------- |
-| **id:** `Integer: PK`       |
-| **orderId:** `Integer: FK`   |
-| **itemId:** `Integer: FK`    |
+### ATF_OrderItem
+
+|    Name           |   DataType     |
+| ----------------- | -------------- |
+| **id:**           | `Integer: PK`  |
+| **orderId:**      | `Integer: FK`  |
+| **itemId:**       | `Integer: FK`  |
 
 - from the Order record type add a one to many relationship with OrderItem
 - from the Item record type add a one to many relationship with OrderItem
