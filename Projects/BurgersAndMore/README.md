@@ -171,3 +171,7 @@ _________________________________
 ## `BAM_ProcessCreditCardPaymentUsingExternalSystem`
 - **Rule Inputs:** `cart`, `currentMilestoneBarStep`, `milestoneBarSteps`, `status`, `numberOfItems`, `orderTotal`, `customerName`, `orderItemsInfo`
 - `https://developer.authorize.net/`
+- `5424000000000015`
+
+## Process Model: BAM Place Order
+- v 12.0 working for order table
