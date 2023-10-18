@@ -96,7 +96,16 @@ _________________________________
             - rule input `cart`
             - local variable `local!milestoneBarSteps`
             - local variable `local!currentMilestoneBarStep`  
-    - **Step 2: Review Cart** uses
+    - **Step 2: Review Cart** 
+        - **Column One**
+            - `BAM_ReviewCart`
+        - **Column Two**
+            - `BAM_Cart` contains a list of items placed into the cart
+            - takes three values
+                - rule input `cart`
+                - local variable `local!milestoneBarSteps`
+                - local variable `local!currentMilestoneBarStep` 
+            
     - **Step 3: Provide Payment** uses
 
 
@@ -152,3 +161,13 @@ _________________________________
 - **Button:** when items are added to the cart a button appears
     - the label on the buttonn depends on the `currentMilestoneBarStep`, which is passed into
         - **Expression Rule:** `BAM_CartButton`, takes an integer and returns text that will display on button
+
+
+## `BAM_ReviewCart`
+- **Rule Input:**`cartContents`
+- displays all the items in the cart in a list
+
+
+## `BAM_ProcessCreditCardPaymentUsingExternalSystem`
+- **Rule Inputs:** `cart`, `currentMilestoneBarStep`, `milestoneBarSteps`, `status`, `numberOfItems`, `orderTotal`, `customerName`, `orderItemsInfo`
+- `https://developer.authorize.net/`
