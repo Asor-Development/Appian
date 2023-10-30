@@ -1,4 +1,5 @@
-# ALL THE FOOD: Admin Site
+# ALL THE FOOD
+**Application for admins of fast food resturant to manage food item**
 
 ## Record Types
 
