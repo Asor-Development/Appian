@@ -1,4 +1,105 @@
-# Global Object Application       
+# Cards Calendar
+**Calender Component created with cards, that uses 1 Interface and 9 Expression Rules**
+
+### GOA_CardsCalendar
+- Interface
+
+        a!localVariables(
+            local!date,
+            local!calDate: if(a!isNotNullOrEmpty(local!date),
+            split(local!date, "/"),
+            null
+            ),
+            {
+                a!dateField(
+                label: "Date",
+                labelPosition: "ABOVE",
+                value: local!date,
+                saveInto: local!date,
+                validations: {}
+                ),
+                a!richTextDisplayField(
+                value: a!richTextHeader(
+                    text: if(a!isNullOrEmpty(local!date),
+                    text(today(), "mmmm"),
+                    text(date(index(local!calDate, 3), index(local!calDate, 1), index(local!calDate, 2) ), "mmmm")
+                    ),
+                    size: "LARGE"
+                ),
+                align: "CENTER"
+                ),
+            
+                a!columnsLayout(
+                columns: {
+                    a!forEach(items: rule!GOA_GetMonthDetails(if(a!isNullOrEmpty(local!date),
+                    today(),
+                    date(index(local!calDate, 3), index(local!calDate, 1), index(local!calDate, 2))
+                    )  
+                    ),
+                    expression: 
+                    a!columnLayout(
+                        contents: {
+                        a!cardLayout(
+                            contents: {
+                            a!richTextDisplayField(
+                                value:a!richTextItem(
+                                text:fv!item.weekDay,
+                                style: "STRONG",
+                                ),
+                                align:"CENTER"
+                            )
+                            },
+                            style: "ACCENT"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value:fv!item.day1, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value: fv!item.day2, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value: fv!item.day3, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value: fv!item.day4, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value: fv!item.day5, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        ),
+                        a!cardLayout(
+                            contents: a!integerField(value: fv!item.day6, readOnly: true),
+                            height: "EXTRA_SHORT",
+                            style: "NONE",
+                            marginBelow: "NONE"
+                        )
+                        },
+                        width: "NARROW"
+                    )
+                    )
+                    
+                },
+                spacing: "NONE"
+                )
+            }
+        )
+
+---
+
 
 ### GOA_GetMonthDetails
 - Expression Rule
@@ -23,6 +124,7 @@
         )
 
 ---
+
 ### GOA_GetFirstDayOfMonth
 - Exprsssion Rule  
 
@@ -79,6 +181,7 @@
         )
 
 ----
+
 ### GOA_FirstDayMonday
 **Accepts a date of a month that starts on Monday and will return a list of 7 maps, each containing a day of the week and all the dates for that day and month use with expression rule GOA_GetMonthDetails to get correct results**
 - Exprsssion Rule 
