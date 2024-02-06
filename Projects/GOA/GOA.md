@@ -103,3 +103,52 @@
             a!map(weekDay: "Saturday", day1: 6, day2: 13, day3: 20, day4: 27, day5: null, day6: null)
         },
         )
+----
+
+### GOA_FirstDayTuesday
+**Accepts a date of a month that starts on Tuesday and will return a list of 7 maps, each containing a day of the week and all the dates for that day and month use with expression rule GOA_GetMonthDetails to get correct results**
+- Exprsssion Rule
+
+        a!match(
+        value:daysinmonth(month( ri!date ), year(ri!date)),
+        equals: 28,
+        then: {
+            a!map(weekDay: "Sunday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+            a!map(weekDay: "Monday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+            a!map(weekDay: "Tuesday", day1: 1, day2: 8, day3: 15, day4: 22, day5: null, day6: null),
+            a!map(weekDay: "Wednesday", day1: 2, day2: 9, day3: 16, day4: 23, day5: null, day6: null),
+            a!map(weekDay: "Thursday", day1: 3, day2: 10, day3: 17, day4: 24, day5: null, day6: null),
+            a!map(weekDay: "Friday", day1: 4, day2: 11, day3: 18, day4: 25, day5: null, day6: null),
+            a!map(weekDay: "Saturday", day1: 5, day2: 12, day3: 19, day4: 26, day5: null, day6: null)
+        },
+        equals: 29,
+        then:  {
+            a!map(weekDay: "Sunday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+            a!map(weekDay: "Monday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+            a!map(weekDay: "Tuesday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null),
+            a!map(weekDay: "Wednesday", day1: 2, day2: 9, day3: 16, day4: 23, day5: null, day6: null),
+            a!map(weekDay: "Thursday", day1: 3, day2: 10, day3: 17, day4: 24, day5: null, day6: null),
+            a!map(weekDay: "Friday", day1: 4, day2: 11, day3: 18, day4: 25, day5: null, day6: null),
+            a!map(weekDay: "Saturday", day1: 5, day2: 12, day3: 19, day4: 26, day5: null, day6: null)
+        },
+        equals: 30,
+        then: {
+            a!map(weekDay: "Sunday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+            a!map(weekDay: "Monday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+            a!map(weekDay: "Tuesday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null),
+            a!map(weekDay: "Wednesday", day1: 2, day2: 9, day3: 16, day4: 23, day5: 30, day6: null),
+            a!map(weekDay: "Thursday", day1: 3, day2: 10, day3: 17, day4: 24, day5: null, day6: null),
+            a!map(weekDay: "Friday", day1: 4, day2: 11, day3: 18, day4: 25, day5: null, day6: null),
+            a!map(weekDay: "Saturday", day1: 5, day2: 12, day3: 19, day4: 26, day5: null, day6: null)
+        },
+        default: {
+            a!map(weekDay: "Sunday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+            a!map(weekDay: "Monday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+            a!map(weekDay: "Tuesday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null),
+            a!map(weekDay: "Wednesday", day1: 2, day2: 9, day3: 16, day4: 23, day5: 30, day6: null),
+            a!map(weekDay: "Thursday", day1: 3, day2: 10, day3: 17, day4: 24, day5: 31, day6: null),
+            a!map(weekDay: "Friday", day1: 4, day2: 11, day3: 18, day4: 25, day5: null, day6: null),
+            a!map(weekDay: "Saturday", day1: 5, day2: 12, day3: 19, day4: 26, day5: null, day6: null)
+        },
+        )
+----
