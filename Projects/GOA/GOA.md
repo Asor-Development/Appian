@@ -1,9 +1,30 @@
 # Global Object Application       
 
+### GOA_GetMonthDetails
+- Expression Rule
 
+        a!match(
+            value: rule!GOA_GetFirstDayOfMonth(if(a!isNullOrEmpty(ri!date), today(), ri!date)),
+            equals: "Sunday",
+            then:rule!GOA_FirstDaySunday(ri!date),
+            equals: "Monday",
+            then:rule!GOA_FirstDayMonday(ri!date),
+            equals: "Tuesday",
+            then:rule!GOA_FirstDayTuesday(ri!date),
+            equals: "Wednesday",
+            then: rule!GOA_FirstDayWednesday(ri!date),
+            equals: "Thursday",
+            then:rule!GOA_FirstDayThursday(ri!date),
+            equals: "Friday",
+            then:rule!GOA_FirstDayFriday(ri!date),
+            equals: "Saturday",
+            then:rule!GOA_FirstDaySaturday(ri!date),
+            default: rule!GOA_FirstDaySunday(ri!date),
+        )
+
+---
 ### GOA_GetFirstDayOfMonth
 - Exprsssion Rule                    
-
         text(
         date(year(ri!date, ), month(ri!date), 1),
         "dddd"
