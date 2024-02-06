@@ -74,11 +74,35 @@
 ### GOA_GetMonthDetails
 - Expression Rule
 
+        a!match(
+            value: rule!GOA_GetFirstDayOfMonth(if(a!isNullOrEmpty(ri!date), today(), ri!date)),
+            equals: "Sunday",
+            then:rule!GOA_GridCalendarFirstDaySunday(ri!date),
+            equals: "Monday",
+            then:rule!GOA_GridCalendarFirstDayMonday(ri!date),
+            equals: "Tuesday",
+            then:rule!GOA_GridCalendarFirstDayTuesday(ri!date),
+            equals: "Wednesday",
+            then: rule!GOA_GridCalendarFirstDayWednesday(ri!date),
+            equals: "Thursday",
+            then:rule!GOA_GridCalendarFirstDayThursday(ri!date),
+            equals: "Friday",
+            then:rule!GOA_GridCalendarFirstDayFriday(ri!date),
+            equals: "Saturday",
+            then:rule!GOA_GridCalendarFirstDaySaturday(ri!date),
+            default: rule!GOA_GridCalendarFirstDaySunday(ri!date),
+        )
+
 
 ---
 
 ### GOA_GetFirstDayOfMonth
 - Exprsssion Rule  
+
+        text(
+            date(year(ri!date, ), month(ri!date), 1),
+            "dddd"
+        )
 
 
 ---
