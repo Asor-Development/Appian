@@ -94,6 +94,42 @@
 **Accepts a date of a month that starts on Monday and will return a list of 7 maps, each containing a day of the week and all the dates for that day and month use with expression rule GOA_GetMonthDetails to get correct results**
 - Exprsssion Rule 
 
+        a!match(
+            value:daysinmonth(month( ri!date ), year(ri!date)),
+            equals: 28,
+            then: {
+                a!map(Sunday: null, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6),
+                a!map(Sunday: 7, Monday: 8, Tuesday: 9, Wednesday: 10, Thursday: 11, Friday: 12, Saturday: 13),
+                a!map(Sunday: 14, Monday: 15, Tuesday: 16, Wednesday: 17, Thursday: 18, Friday: 19, Saturday: 20),
+                a!map(Sunday: 21, Monday: 22, Tuesday: 23, Wednesday: 24, Thursday: 25, Friday: 26, Saturday: 27),
+                a!map(Sunday: 28, Monday: null, Tuesday: null, Wednesday: null, Thursday: null, Friday: null, Saturday: null),
+                
+            },
+            equals: 29,
+            then:  {
+                a!map(Sunday: null, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6),
+                a!map(Sunday: 7, Monday: 8, Tuesday: 9, Wednesday: 10, Thursday: 11, Friday: 12, Saturday: 13),
+                a!map(Sunday: 14, Monday: 15, Tuesday: 16, Wednesday: 17, Thursday: 18, Friday: 19, Saturday: 20),
+                a!map(Sunday: 21, Monday: 22, Tuesday: 23, Wednesday: 24, Thursday: 25, Friday: 26, Saturday: 27),
+                a!map(Sunday: 28, Monday: 29, Tuesday: null, Wednesday: null, Thursday: null, Friday: null, Saturday: null),
+            },
+            equals: 30,
+            then: {
+                a!map(Sunday: null, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6),
+                a!map(Sunday: 7, Monday: 8, Tuesday: 9, Wednesday: 10, Thursday: 11, Friday: 12, Saturday: 13),
+                a!map(Sunday: 14, Monday: 15, Tuesday: 16, Wednesday: 17, Thursday: 18, Friday: 19, Saturday: 20),
+                a!map(Sunday: 21, Monday: 22, Tuesday: 23, Wednesday: 24, Thursday: 25, Friday: 26, Saturday: 27),
+                a!map(Sunday: 28, Monday: 29, Tuesday: 30, Wednesday: null, Thursday: null, Friday: null, Saturday: null),
+            },
+            default: {
+                a!map(Sunday: null, Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6),
+                a!map(Sunday: 7, Monday: 8, Tuesday: 9, Wednesday: 10, Thursday: 11, Friday: 12, Saturday: 13),
+                a!map(Sunday: 14, Monday: 15, Tuesday: 16, Wednesday: 17, Thursday: 18, Friday: 19, Saturday: 20),
+                a!map(Sunday: 21, Monday: 22, Tuesday: 23, Wednesday: 24, Thursday: 25, Friday: 26, Saturday: 27),
+                a!map(Sunday: 28, Monday: 29, Tuesday: 30, Wednesday: 31, Thursday: null, Friday: null, Saturday: null),
+            },
+        )
+
 
 ---
 
