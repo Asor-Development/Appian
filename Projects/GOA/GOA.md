@@ -24,10 +24,11 @@
 
 ---
 ### GOA_GetFirstDayOfMonth
-- Exprsssion Rule                    
+- Exprsssion Rule  
+
         text(
-        date(year(ri!date, ), month(ri!date), 1),
-        "dddd"
+            date(year(ri!date, ), month(ri!date), 1),
+            "dddd"
         )
 
 ### GOA_FirstDaySunday
