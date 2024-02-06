@@ -325,44 +325,44 @@
 - Exprsssion Rule
 
         a!match(
-        value:daysinmonth(month( ri!date ), year(ri!date)),
-        equals: 28,
-        then: {
-            a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: null),
-            a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
-            a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
-            a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
-            a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
-            a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
-            a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: null, day6: null)
-        },
-        equals: 29,
-        then:  {
-            a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: null),
-            a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
-            a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
-            a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
-            a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
-            a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
-            a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
-        },
-        equals: 30,
-        then: {
-            a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: 30),
-            a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
-            a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
-            a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
-            a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
-            a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
-            a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
-        },
-        default: {
-            a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: 30),
-            a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: 31),
-            a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
-            a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
-            a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
-            a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
-            a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
-        },
+            value:daysinmonth(month( ri!date ), year(ri!date)),
+            equals: 28,
+            then: {
+                a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: null),
+                a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
+                a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
+                a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
+                a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+                a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+                a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: null, day6: null)
+            },
+            equals: 29,
+            then:  {
+                a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: null),
+                a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
+                a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
+                a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
+                a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+                a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+                a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
+            },
+            equals: 30,
+            then: {
+                a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: 30),
+                a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: null),
+                a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
+                a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
+                a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+                a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+                a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
+            },
+            default: {
+                a!map(weekDay: "Sunday", day1: null, day2: 2, day3: 9, day4: 16, day5: 23, day6: 30),
+                a!map(weekDay: "Monday", day1: null, day2: 3, day3: 10, day4: 17, day5: 24, day6: 31),
+                a!map(weekDay: "Tuesday", day1: null, day2: 4, day3: 11, day4: 18, day5: 25, day6: null),
+                a!map(weekDay: "Wednesday", day1: null, day2: 5, day3: 12, day4: 19, day5: 26, day6: null),
+                a!map(weekDay: "Thursday", day1: null, day2: 6, day3: 13, day4: 20, day5: 27, day6: null),
+                a!map(weekDay: "Friday", day1: null, day2: 7, day3: 14, day4: 21, day5: 28, day6: null),
+                a!map(weekDay: "Saturday", day1: 1, day2: 8, day3: 15, day4: 22, day5: 29, day6: null)
+            },
         )
