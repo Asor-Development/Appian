@@ -24,8 +24,19 @@
 | **price**        |  `Decimal`    |
 | **description**  |  `String`     |
 | **image**        |  `Integer`    |
-| **sizeId**       |  `Integer: FK`|
 | **categoryId**   |  `Integer: FK`|
+
+### BAM_ItemSize
+- Many to Many 
+- Join Table for Item and Sizes
+|    Name          |   DataType    |
+| ---------------- | ------------- |
+| **id**           |  `Integer: PK`|
+| **itemId**       |  `Integer: FK`|
+| **sizeId**       |  `Integer: FK`|
+
+---
+
 
 ### ATF_Order
 
