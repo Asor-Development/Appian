@@ -1,8 +1,6 @@
-# RPA
-- organizations can used Appian RPA to automate the work of their employees, freeing them to do more interesting, cognitive work
-
 ## RPA Architecture
-
+- organizations can used Appian RPA to automate the work of their employees, freeing them to do more interesting, cognitive work
+---
 ### Appian RPA Components
 - **In Appian Cloud**
     - **Connected Systems and Integrations** allow an Appian process to trigger and execute robotic tasks
@@ -15,8 +13,6 @@
         - each robot is secured separately directly from the Operations Console
             - users must be an Administrator or an Editor of the robot
         - being a viewer allows the user to see the robot in the Operations Console and use the robot in Appian Designer
-
-
 ---
 
 ## Appian RPA console
