@@ -14,3 +14,5 @@
             - Create and Add Another if you want to add another document type andrepeat these steps to add another document type
         - Save Changes
         - Click **Train Model**
+
+https://academy.appian.com/#/online-course-player/07769a88-b0b5-44ee-a08b-8f2200355f87
