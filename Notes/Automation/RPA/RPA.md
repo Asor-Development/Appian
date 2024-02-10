@@ -1,4 +1,4 @@
-## RPA Architecture
+## Robotic process Automation Architecture
 - organizations can used Appian RPA to automate the work of their employees, freeing them to do more interesting, cognitive work
 ---
 ### Appian RPA Components
@@ -45,8 +45,14 @@
 ---
 
 
-### Creating Robots
+### Robots
 - you can create a robot from the operations console or from Appian Designer
+- you must Configure a Robot before you create a robotic task
+    - robotic tasks are assigned to robots
+- each robot is installed on individual host machines
+- How to configure a robot [here](./RobotsAndRoboticTasks.md#configure-robot)
+- after your robot is configured you can add it to a [robot pool](./RobotPools.md), then you can creat a [robotic task](./RobotsAndRoboticTasks.md#create-a-robotic-task)
+- If a robot pool is not added, the robotic task can still be configured but will not be able to debug or execute
 ---
 
 ### Summary
