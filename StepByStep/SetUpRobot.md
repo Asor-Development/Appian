@@ -13,3 +13,12 @@
         - Verify your host machine is ready for robot installation and download the robot installer. If you're using a physical host machine, you'll download the robot and launch it now. If you're using a virtual host machine, you can complete this step later
 
 **Follow the onscreen instructions to download and run the robot on your host machine, when finished, click Done. Your robot should now appear Online in the Operations Console.**
+**After creating a robot, you can add your robot to a robot pool. Simply create a Robot Pool design object in your application to get started.**
+---
+
+## Add Robot to robot Pool
+1. From Appian Designer select New and Robot Pool
+    - name the pool and click Create and Save
+2. From within the pool
+    - Click Add Memebers
+    - Under Robots To Add, search for robot and click Add

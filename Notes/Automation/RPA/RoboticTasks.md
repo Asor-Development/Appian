@@ -1,6 +1,4 @@
-
-
-## Robotic Task
+# Robotic Task
 2. **Create A Robotic Task:** will tell the robot what work to complete
     - Create a Robotic Task Design Object
     - Configure robotic task actions, screen consist of four tabs: 

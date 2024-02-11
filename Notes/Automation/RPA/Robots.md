@@ -1,5 +1,13 @@
-# Robots and Robotic Tasks
-**You must Configure a Robot before you create a robotic task**
+# Robots and Robotic Tasks# Robots
+- you can create a robot from the operations console or from Appian Designer
+- you must Configure a Robot before you create a robotic task
+    - robotic tasks are assigned to robots
+- each robot is installed on individual host machines
+- How to configure a robot [here](../../../StepByStep/SetUpRobot.md)
+- after your robot is configured you can add it to a [robot pool](./RobotPools.md), then you can creat a [robotic task](./RoboticTasks.md)
+- If a robot pool is not added, the robotic task can still be configured but will not be able to debug or execute
+---
+
 ## Allow Appian to sign in
 - before a robotic task starts, it may need to access your host machine and start a user session if one isn't already active
     - your business may restrict the privileges available to this user session
