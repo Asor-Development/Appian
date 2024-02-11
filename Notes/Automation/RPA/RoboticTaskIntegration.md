@@ -48,6 +48,8 @@
 - When a robotic task runs into a business exception, such as manual approval is needed, or data is missing, the robotic task must terminate and notify a user of the exception
 - To do this, the robotic task must return the exception and related data to the process model so the user can be notified with relevant information
 - To set up this exception handling, create two variables in your robotic task
+    - A status flag (boolean) to indicate if a certain business exception has occurred
+    - An exception message (text) to provide details on the business exception
 ---
 
 
