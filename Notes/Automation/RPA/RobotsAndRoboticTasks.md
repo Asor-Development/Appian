@@ -1,25 +1,6 @@
-# Robots and Robotic Tasks
-**You must Configure a Robot before you create a robotic task**
 
 
-## Configure Robot
-1. **Configure Robot:** You need a robot to do the work on a local or virtual machine
-    - Go to the Operations Console
-    - Click create and follow the prompts
-    - Provide a name for your robot
-    - Choose the operating system the agent will be installed on 
-    - the JRE Path and Allow Appian to Sign In are optional and can be configured as needed
-        - Read more about these configuration options in Appian Documentation
-    - Set security on your robot using rolemaps
-    - Configure which user groups should have Administrator, Editor and Viewer access to the robot
-        - can also configure Deny
-        - Read more about these permission levels in Appian Documentation
-    - Download and run the agent
-        - Once the agent runs on the host machine, its status is Online, and it can communicate with the orchestration server
-    - After creating a robot, you can add your robot to a robot pool by creating a Robot Pool design object
-**After creating a robot and adding it to a robot pool, it is time to create a robotic task.**
-
-## Create A Robotic Task
+## Robotic Task
 2. **Create A Robotic Task:** will tell the robot what work to complete
     - Create a Robotic Task Design Object
     - Configure robotic task actions, screen consist of four tabs: 
