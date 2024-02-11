@@ -61,3 +61,5 @@
     - Connected Systems, Integrations and Robots
 - Operations Console is used to create, manage and view robots
 - robotic tasks are design objects that can be secured using rolemaps like Viewer, Editor and Administrator
+
+- [Create Robotic Tasks with Appian course](https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd2903a1299)
