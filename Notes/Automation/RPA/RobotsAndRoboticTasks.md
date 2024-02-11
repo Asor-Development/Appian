@@ -100,3 +100,15 @@ https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd290
 - The Execution log tab provides detailed information
 - While debugging, you can re-run the task execution from the top, by clicking the blue circle icon in the top right. This refreshes the screen and starts debugging from the top
 **The debugging tool will open in the Appian RPA console as a separate tab, whne you are done you can close this tab and return to the robotic task design object**
+
+
+---
+### [Permission Tags](https://docs.appian.com/suite/help/23.3/rpa-9.3/security-rpa.html#permission-tags)
+- Permission tags are used to:
+  - Allow users to access robots
+  - Define which queues a robotic task can act on
+  - Define which credentials can be used with a robotic task
+  - Different users can access the same robot, queue, or credential no matter what their role is – they just need to share a tag with that component
+  - You can create permission tags in the robotic task general tab
+#### Add permission tags to user
+- Appian RPA --> Users, locate the user --> Actions
