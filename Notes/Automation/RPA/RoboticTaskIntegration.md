@@ -45,8 +45,9 @@
     - the smart service waits for the robotic task to finish before moving forward in the process model
 **The robotic task continues running in the background even if the process model is paused, canceled, or deleted. To pause or cancel the robotic task, you’ll need to go to the robotic task instance in the Appian RPA console**
 ## Add other nodes to the process model to handle business and system exceptions
-
-
+- When a robotic task runs into a business exception, such as manual approval is needed, or data is missing, the robotic task must terminate and notify a user of the exception
+- To do this, the robotic task must return the exception and related data to the process model so the user can be notified with relevant information
+- To set up this exception handling, create two variables in your robotic task
 ---
 
 
