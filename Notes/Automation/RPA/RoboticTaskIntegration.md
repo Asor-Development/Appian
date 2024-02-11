@@ -50,6 +50,10 @@
 - To set up this exception handling, create two variables in your robotic task
     - A status flag (boolean) to indicate if a certain business exception has occurred
     - An exception message (text) to provide details on the business exception
+    ![ExceptionHandling](../../images/robotictask-exceptiohandling-variables.png)
+- In the process model, use an XOR gateway to evaluate the values of the status flag returned by the robotic task and route the workflow accordingly
+- Example of a business exception in the robotic task triggers a task to a user for further troubleshooting. If there is no business exception, data can be written to a record. 
+    ![ExceptionHandling](../../images/robotictask-business-exception.png)
 ---
 
 
