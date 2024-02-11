@@ -23,7 +23,7 @@
 
 ---
 ## In the process model, add and configure the smart service to run a robotic task
-1. Edit Process model: to call the RPA integration using the Execute Robotic Task smart service
+1. Edit Process model: to call the RPA integration using the **Execute Robotic Task smart service**
     - add the Execute Robotic Task smart service to the appropriate place in your process model to configure the smart service
 2. Configure the smart service settings on the Setup tab
     - select the RPA integration
@@ -39,6 +39,11 @@
     - **Node Outputs:** 
         - Decide whether and where to save the node outputs
         - [More Info](https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd2903a1299)
+- Smart service runtime behavior
+    - once the task starts running and the Execute Robotic Task smart service is initiated
+    - the integration calls the chosen robotic task
+    - the smart service waits for the robotic task to finish before moving forward in the process model
+**The robotic task continues running in the background even if the process model is paused, canceled, or deleted. To pause or cancel the robotic task, you’ll need to go to the robotic task instance in the Appian RPA console**
 ## Add other nodes to the process model to handle business and system exceptions
 
 
