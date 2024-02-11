@@ -1,13 +1,13 @@
-# Robotic Task
-2. **Create A Robotic Task:** will tell the robot what work to complete
-    - Create a Robotic Task Design Object
-    - Configure robotic task actions, screen consist of four tabs: 
-        - **Edit:** to design the robotic task by dragging and dropping components from the Palette on the left to one of the sections in the middle of the screen
-            - use robotic task variables to pass data between actions and other design objects
-            - Setup, Main and Clean up are the default sections
-        - **General Information:**
-        - **Run-Time Settings:**
-        - **Technical Information:**
+# Robotic Task Design Object
+- a robot must be configured and online
+- will tell the robot what work to complete
+- Configure robotic task actions, screen consist of four tabs: 
+    - **Edit:** to design the robotic task by dragging and dropping components from the Palette on the left to one of the sections in the middle of the screen
+        - use robotic task variables to pass data between actions and other design objects
+        - Setup, Main and Clean up are the default sections
+    - **General Information:**
+    - **Run-Time Settings:**
+    - **Technical Information:**
 
 ### Edit Tab
 - **Robotic task execution:**
