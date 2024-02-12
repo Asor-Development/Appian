@@ -1,25 +1,16 @@
 # Robotic Task Integration
 **How to incorporate a robotic task into your overall business process**
-
-## Create design objects: connected system and integration
-**To execute a robotic task, you will need a WebAPI key, connected system and an integration design object**
-1. Create Web API Key: required for Appian RPA to communicate with your application
-- an API key is created through the Admin Console from the Web API Authentication tab
-- add it to a service account
-- add the service account to the administrators group
-    - ensure the WebAPI has access to the objects needed to trigger a robotic task
-- copy the API key to add it to the connected system
-2. Create an Appian RPA Connected System
-    - choose Appian RPA
-    - paste the generated API key into the configuration
-3. Create an integration to execute a robotic task
-    - create a new integration using the created Appian RPA Connected System
-        - choose **Execute Robotic Task**
-    - Configure Integration
-        - use the dropdown to choose the robotic task that this integration will trigger
-            - service account needs to be part of the application administrators group for the robotic task to be visible in the dropdown
-        - Configure Description and Priority as needed
-        - create rule inputs and map them to the appropriate parameters
+- You will need:
+    - Integration that uses Appian RPA Connected System with a WebAPI key
+---
+# Appian RPA Connected System 
+- provides an integrated solution to support full-stack automation in Appian
+- build robotic tasks to automate repetitive activities to free up your workforce and ensure data accuracy
+- Appian RPA tightly integrates with BPM, AI, and case management so you can use the right automation technology for a given use case
+- only available for customers who have purchased Appian RPA
+- Once the connected system is authenticated via API key, robotic tasks automatically appear in the available operations based on permissions
+    - To generate a new API Key for a service account, go to the Appian Administration Console
+**Find Guided Steps [here](../../../StepByStep/RPAIntegration.md)**
 
 ---
 ## In the process model, add and configure the smart service to run a robotic task
