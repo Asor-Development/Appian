@@ -91,3 +91,8 @@ https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd290
   - You can create permission tags in the robotic task general tab
 #### Add permission tags to user
 - Appian RPA --> Users, locate the user --> Actions
+
+---
+
+**Find Guided Steps [here](../../../StepByStep/RoboticTask.md)**
+**After creating a robotic task you can create a robotic task [integration](./RoboticTaskIntegration.md)**

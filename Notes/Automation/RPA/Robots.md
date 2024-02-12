@@ -43,4 +43,4 @@
     - Download and run the agent
         - Once the agent runs on the host machine, its status is Online, and it can communicate with the orchestration server
     - After creating a robot, you can add your robot to a robot pool by creating a Robot Pool design object
-**After creating a robot and adding it to a robot pool, it is time to create a robotic task.**
+**After creating a robot and adding it to a [robot pool](./RobotPools.md), it is time to create a [robotic task](./RoboticTasks.md).**

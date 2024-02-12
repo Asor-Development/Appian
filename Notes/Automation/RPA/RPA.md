@@ -43,11 +43,6 @@
     - users need to be at least a Viewer of the robotic task design object to see it in this view
 
 ---
-
-
-- [Robots](../RPA/Robots.md)
----
-
 ### Summary
 - part of the Automation Suite
 - has a set of components that work together to execute robotic tasks
@@ -56,3 +51,11 @@
 - robotic tasks are design objects that can be secured using rolemaps like Viewer, Editor and Administrator
 
 - [Create Robotic Tasks with Appian course](https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd2903a1299)
+---
+
+- [Robots](../RPA/Robots.md)
+- [Robot Pools](./RobotPools.md)
+- [Robotic Tasks](../RPA/RoboticTasks.md)
+- [Robotic Tasks](../RPA/RoboticTaskIntegration.md)
+
+

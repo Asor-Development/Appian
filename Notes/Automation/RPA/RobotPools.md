@@ -45,3 +45,4 @@ ________________________________________________________________________________
 - **Add members:**
     - Click the Add Members button to open the robot pool members dialog
     Enter the name of the robot(s) and robot pool(s) you want to add then click ADD. You are brought back to the robot pool page and the robot(s) or robot pool(s) you added display in the list.
+**After adding the robot to a robot pool, it is time to create a [robotic task](./RoboticTasks.md).**
