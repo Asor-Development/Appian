@@ -53,9 +53,10 @@
 - [Create Robotic Tasks with Appian course](https://academy.appian.com/#/online-course-player/a11e15e0-bea2-4218-9ace-9bd2903a1299)
 ---
 
-- [Robots](../RPA/Robots.md)
+- [Robots](./Robots.md)
 - [Robot Pools](./RobotPools.md)
-- [Robotic Tasks](../RPA/RoboticTasks.md)
-- [Robotic Tasks](../RPA/RoboticTaskIntegration.md)
+- [Robotic Tasks](./RoboticTasks.md)
+- [Robotic Task Integration](./RoboticTaskIntegration.md)
+- [Adding Robotic Task Integration To Process Model](./RPAIntegrationinProcessModel.md)
 
 

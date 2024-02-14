@@ -1,6 +1,5 @@
+# Creating and Incorporate a robotic task into your overall business proces
 
-These steps will help guide you in creating:
-- portal that implements a robotic task that will run whenever users submit data
 1. Create Application
 2. Create [Portal](../PORTAL.md)
 3. Set Up [RPA Robot](./SetUpRobot.md)

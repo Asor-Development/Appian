@@ -26,4 +26,4 @@
         - create rule inputs and map them to the appropriate parameters
             - the rule inputs should match the inputs for the robotic task
             - update the value for the rule inputs in the Parameters section `ri!ruleInputName`
-**Once you have your integration configured you can now update/create the process model**
+**Once you have your integration configured you can now update/create the [process model](./RPAIntegrationInprocessModel.md)**

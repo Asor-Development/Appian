@@ -14,5 +14,16 @@
             - Create and Add Another if you want to add another document type andrepeat these steps to add another document type
         - Save Changes
         - Click **Train Model**
+3. When the model has finished training, it should have a 100% accuracy and you can Click Publish and Save Changes
+4. Use the Classify Documents smart service in Process Model
+    - if you are using a robotic task place it just after the Execute Robotic Task node
+    - in the Setup tab select the Document Classification AI Skill you want to use
+    - in the Data Tab in the Inputs, click the Documents input and for the value property, click the Edit as Expression button and type `todocument(pv!record.recordField)`
+    - in the Data tab, in the Outputs, click on the AboveThreshold output, for Target, click the blue plus to create a new process variable and just click OK
+        - Repeat the previous step for the BelowThreshold output variable
+    - click ok
+5. Add Script task
+    - after  Classify Documents smart service
+
 
 https://academy.appian.com/#/online-course-player/07769a88-b0b5-44ee-a08b-8f2200355f87
