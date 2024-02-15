@@ -24,8 +24,8 @@
 24. What is a local variable and what is the difference between a local variable, load, and with? [Answer](./OtherObjects/LocalVariables.md#local-variales)
 25. Explain local variables default behavior? [Answer](./OtherObjects/LocalVariables.md#default-refresh-behavior-for-all-local-variables)
 26. How can you use `a!refreshVariable()` to change default behavior? [Answer](./OtherObjects/LocalVariables.md#disable-default-refresh-behavior-arefreshvariable)
-
-
+27. How many views can be added in a record?
+28. How do you check if a user name is taken or not?
 
 [Answer]()
 [Answer]()

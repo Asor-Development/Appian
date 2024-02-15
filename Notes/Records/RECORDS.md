@@ -27,6 +27,7 @@
 ## Define how users view your data
 - you can set up a record list or read only grids for users to view and navigate a set of records
 - multiple views can be set up for the applications users allowing them to see the data that is most important to them
+    - you can add up to 20 view in addition to the Summary view
 - records should be designed in a way that users can quickly understand everthing in it and find what they need and act on it
 - can add custom record fields to your records to make easy data calculations and manipulations, allowing you to then reference these fields as easily as any other record field, to build reports, grids, queries, and more
 
