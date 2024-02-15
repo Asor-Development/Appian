@@ -21,12 +21,12 @@
 21. How many nodes are allowed in a process model?[Answer](./ProcessModels/ProcessModels.md#process-model-best-practices)
 22. What is a Decision Table?[Answer](./OtherObjects/DecisionTable.md)
 23. What is a User Story?
-24. What is a local variable and what is the difference between a local variable, load, and with?
+24. What is a local variable and what is the difference between a local variable, load, and with? [Answer](./OtherObjects/LocalVariables.md#local-variales)
+25. Explain local variables default behavior? [Answer](./OtherObjects/LocalVariables.md#default-refresh-behavior-for-all-local-variables)
+26. How can you use `a!refreshVariable()` to change default behavior? [Answer](./OtherObjects/LocalVariables.md#disable-default-refresh-behavior-arefreshvariable)
 
 
-start with local variables
-https://www.youtube.com/watch?v=Liac0A-ePiI
-at the 3:25 mark
+
 [Answer]()
 [Answer]()
 [Answer]()
