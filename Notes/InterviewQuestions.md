@@ -20,8 +20,13 @@
 20. How many rows of data can be sync with a record? [Answer](./Records/RECORDS.md#record-data-sync)
 21. How many nodes are allowed in a process model?[Answer](./ProcessModels/ProcessModels.md#process-model-best-practices)
 22. What is a Decision Table?[Answer](./OtherObjects/DecisionTable.md)
+23. What is a User Story?
+24. What is a local variable and what is the difference between a local variable, load, and with?
 
 
+start with local variables
+https://www.youtube.com/watch?v=Liac0A-ePiI
+at the 3:25 mark
 [Answer]()
 [Answer]()
 [Answer]()
