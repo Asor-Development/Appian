@@ -19,3 +19,8 @@
 - []()
 - []()
 - []()
+
+---
+- databse Structures always need to be built first
+- columns that should always be used
+    - createdBy, createdOn, modifiedBy, modifiedOn,and isActive
