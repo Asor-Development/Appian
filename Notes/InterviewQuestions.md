@@ -12,8 +12,8 @@
 11. What is Process Model Archiving? [Answer](./ProcessModels/ProcessModels.md#archiving)
 12. Application Deployment? [Answer](./Deployment.md)
 13. What is the difference between start process and sub process?[Answer](./ProcessModels/Nodes/SmartServices/StartingProcesses/StartSubProcess.md#start-process-vs-sub-process)
-15. What does it mean when records have data sync enabled? [Answer](./Data/Records/)
-
+15. What does it mean when records have data sync enabled? [Answer](./Data/Records/Records.md#record-data-sync)
+16. What is Scheduler?[Answer](./ProcessModels/SCHEDULER.md)
 
 [Answer]()
 [Answer]()
