@@ -99,3 +99,15 @@ ________________________________________________________________________________
 - allow you to discover business processes to potimize and automate
 - use Appian process Mining to help analyze your processes and provide insight into where automation would be most effective
 - you can combine process mining with workflow and automation, and use the insights and act on them faster
+
+
+
+# Automation
+**Combines data, people and syatems to help business get better business reaults and get the most out of their resources**
+- End-to-end automation at Appian combines people, systems, and data in an end-to-end process.
+- applications or processes can be created that are better at completing work that takes a lot of time or that is repetitive
+- because human experience, crativity, problemsloving, or judgement cannot always be replaced(such as when umexpected errors occur)  
+    - human and automated tasks can be combined, giving each the appropriate types of work based on which can handle the job most efficiently
+- Process models are the core to end-to-end automation, use them to connect people, systems, automation capabilities, and data in a single workflow
+- a lot of use cases can be solved using business rules in process models
+    - business rules can set permissions, assign tasks, execute processes etc...

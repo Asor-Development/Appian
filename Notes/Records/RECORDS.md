@@ -21,6 +21,7 @@
 - querying will be faster
 - when getting data from some sort of API you can configure data to sync at certain time depending on your business requirment
 - When you enable data sync, you can apply record-level security to specify who can view each record
+- can sync up to 4 million rows of data
 
 
 ## Define how users view your data
@@ -29,6 +30,20 @@
 - records should be designed in a way that users can quickly understand everthing in it and find what they need and act on it
 - can add custom record fields to your records to make easy data calculations and manipulations, allowing you to then reference these fields as easily as any other record field, to build reports, grids, queries, and more
 
+
+# Records
+
+- Record type field references are specific to each record type and environment
+## Records Events
+**Record events allow us to store the event data in a separate Event History record type**
+- Record type --> Events ---> Gnerate Record events
+    -  Include Common Event Types: will automatically add event types for creating and updating 
+    - Other Event Types: for additional event types other than creating and updating
+    - Event History: generated record type will store who performs certain events and when
+    - Event Type Lookup: generated record type will store the types of events that can occur
+    - Once we configure record events are configured, you can capture and display events throughout our application
+
+
 ## Record Best Practices
 - as a best practice records should be built first and the processes should be built aroud them
-
+- best practice, you should download the script for any database table created from a record type

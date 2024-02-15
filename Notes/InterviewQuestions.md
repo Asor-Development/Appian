@@ -14,7 +14,14 @@
 13. What is the difference between start process and sub process?[Answer](./ProcessModels/Nodes/SmartServices/StartingProcesses/StartSubProcess.md#start-process-vs-sub-process)
 15. What does it mean when records have data sync enabled? [Answer](./Data/Records/Records.md#record-data-sync)
 16. What is Scheduler?[Answer](./ProcessModels/SCHEDULER.md)
-17. How can you check error that occur in a Portal? [Answer]()
+17. How can you check error that occur in a Portal? [Answer](./Portals/PORTALS.md#monitoring-portals)
+18. What is the difference between where() and wherecontains() functions? [Answer](./Functions/Array.md#where)
+19. What is AI Skill?[Answer]()
+20. How many rows of data can be sync with a record? [Answer](./Records/RECORDS.md#record-data-sync)
+21. How many nodes are allowed in a process model?[Answer](./ProcessModels/ProcessModels.md#process-model-best-practices)
+22. What is a Decision Table?[Answer](./OtherObjects/DecisionTable.md)
+
+
 [Answer]()
 [Answer]()
 [Answer]()
