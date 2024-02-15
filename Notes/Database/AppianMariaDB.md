@@ -13,21 +13,39 @@
         - Metric tables: 
         - has a `New` that can be clicked to create tables
 ### Tabs
+**With no Tables Selected**
 
-- **Database:**
-- **SQL:** allow us to use SQL to create tables
-- **Status:**
+- **Structure:**
+- **SQL:**
+- **Search:**
+- **Query:**
 - **Export:**
 - **Import:**
-- **Settings:**
-- **Variables:**
-- **Charsets:**
-- **Engines:**
-- **Plugins:**
-- can 
-- can
+- **Operations:**
+- **Routines:**
+- **Events:**
+- **Triggers:**
+- **Designe:**
+
+**With Table Selected**
+
+
+- **Browser:** see the data in a table
+- **Structure:** see the structure of a table
+- **SQL:** allow us to write SQL queries
+- **Search:** search the data using some of the data elements
+- **Insert:** allow us to insert data manually
+- **Export:** for deployment
+- **Import:** for deployment
+- **Operations:** do some operations such as change table name, copy, delete, change structure etc... 
+- **Triggers:**
+
 
 
 ## Adding New Database/ Data Source
 - Admin Console ---> Data Sources ---> New Data Source
     - Configure Data Source by providing type, connection string, username and password
+
+
+### Using the data
+- when a table is created from the database, we need to created a CDT or record type to be able to use the data in Appian
