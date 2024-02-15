@@ -1,9 +1,9 @@
 # Mathematical Functions
 
-## mod()
+## `mod(dividend, divisor )`
 - returns the remainder of dividend when divided by the divisor
 
-## enumerate() Function
+## `enumerate(n)`
 - returns a list of integer numbers from 0 through n-1
     - n is the number passed into the function
     - `enumerate(10)` = 10-1
