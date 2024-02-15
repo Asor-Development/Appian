@@ -58,7 +58,9 @@
 ### Monitoring Portals
 - After publishing your portal, it's important to monitor your portal's performance
 - On the Portal Monitoring tab of the Monitoring page, you’ll be able to view key metrics about how your portals are performing across environments. 
-- Understanding how your users are experiencing your portals helps you create portals that are responsive, reliable, and available to all users.
+- Understanding how your users are experiencing your portals helps you create portals that are responsive, reliable, and available to all users
+- you can check errors in the Portal Error log, it will tell you where and why the user is seeing an error
+- you can also check the portaldetail.csv, you can check the performace
 
 ### Other Portal Configurations
 - Use custom domains so your portal URLs are consistent with other enterprise URLs, 

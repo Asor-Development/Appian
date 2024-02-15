@@ -14,7 +14,7 @@
 13. What is the difference between start process and sub process?[Answer](./ProcessModels/Nodes/SmartServices/StartingProcesses/StartSubProcess.md#start-process-vs-sub-process)
 15. What does it mean when records have data sync enabled? [Answer](./Data/Records/Records.md#record-data-sync)
 16. What is Scheduler?[Answer](./ProcessModels/SCHEDULER.md)
-
+17. How can you check error that occur in a Portal? [Answer]()
 [Answer]()
 [Answer]()
 [Answer]()
