@@ -1,10 +1,5 @@
 # Questions
-1. What is an environment specific constant?
-    - when we create a CDT we have an option to create an Environment Specific constant
-        - will require different environments to have different values for this constant
-    - prevents unintentional changes to an environment's value for this constant
-    - the value of an environment specific constant is not updated on import unless set via an import customization file
-    - Ex. when deploying you have to change the value during deployment via the import customization file
+1. What is an environment specific constant? [Answer]()
 
 ## UUIDs
 - a UUID is automatically generated for every object, this UUID will remain the same from one environment to another
@@ -25,7 +20,7 @@
 - both used in process models
 - escalation
     - when a task or process node is delayed for some reason
-    - configuration can take a numbert of actions
+    - can configure using a time event, change the priority, reassign task, send a alert or message
     - Ex. if you have a task that has not been completed for a certain amount of time you can send a reminder or alert to the user or group to complete the task
 - exception
     - Ex. if a user starts a process and for some reason the process never get completed
@@ -38,7 +33,8 @@
 - Dev to test:compare and deploy feature
 - Deploy to production: export manually
 
-## Process Model Archive
+## Process Model 
+#### Archive
 - if you do not need the instance in Appian you can just use the default 7 day archival, and it will no longer be avaliable in the monitoring tab
     - you can change it to 1 or 3 days depending on your requirements
 
@@ -64,6 +60,11 @@
     - AND: like fork and join, it will wait for all the incoming paths to reach the node, then execute all outgoing paths at the same time
         - does not require any configuration
     - COMPLEX: combination of all the gateways
+- Activity Chaining
+    - when the same user need to complete a number or user input task one after the other
+    - if activity chaining is enabled after the user submits one task or form the next one will be displayed to the user
+    - if no activity chaining is enable then the second task will appear in the User's Task Tab in Tempo
+    - should use no more than 50 nodes or 5 seconds between attended activities
 
 
 ---
