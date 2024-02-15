@@ -1,5 +1,13 @@
 # Maria DB
 
+
+- PRIMARY KEY: 
+
+### DATA TYPES
+- CHAR(20): a fixed-width character type of 20 character
+- VARCHAR(50): a variable width character column of fifty characters at most
+- INT: integer
+- TEXT: a variable width column and it can hold up to 65,535 bytes of data for each row
 ## Creating A Database
 
 `CREATE DATABASE musicstore`
@@ -11,15 +19,16 @@
 
 
 - create a simple table that will hold basic data on books
-        -         CREATE TABLE records (fieldname type, fieldname type, fieldname type)
+        - CREATE TABLE records (fieldname type, fieldname type, fieldname type)
+         - creates the table records with three fields/columns
 
-        CREATE TABLE records (id CHAR(20) PRIMARY KEY, 
-        title VARCHAR(50),
-        author_id INT,
-        publisher_id INT,
-        year_pub CHAR(4),
-        description TEXT );
 
-- CHAR(20),
-- VARCHAR(50)
-- INT
+### ALTER TABLE 
+- change the settings of a table
+
+
+---
+
+
+### DROP TABLE
+- delete a table completely (including its data)
