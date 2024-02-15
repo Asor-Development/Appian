@@ -31,5 +31,20 @@
     - if there are tables that are common to applications in your environment that use different data sources, create those tables in the "Appian" schema
         - For example, an Employee table that needs to be used in both Finance and HR applications should be created in the "Appian" schema
     - migrating data from existing schemas into new schemas is not recommended, only create schemas for new applications
-
 - https://docs.appian.com/suite/help/23.4/appian-cloud-database-administration.html#granting-access-to-schemas
+
+---
+# Adding New Database/ Data Source
+- Admin Console ---> Data Sources ---> New Data Source
+    - Configure Data Source by providing type, connection string, username and password
+
+
+----
+
+
+## Summary
+Appian Cloud database is a MariaDB database server that uses a phpAdmin interface.
+- ship with a default `Appian` schema which has broad access, this is where most of your data should be stored
+    - create additional schemas when your applications need data segregation and isolation
+    - tables that are common to applications in your environment that use different data sources, create those tables in the "Appian" schema
+- database administrators can create additional schemas and use system groups and object security to secure access to them

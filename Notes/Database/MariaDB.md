@@ -32,3 +32,4 @@
 
 ### DROP TABLE
 - delete a table completely (including its data)
+- `DROP TABLE records`
