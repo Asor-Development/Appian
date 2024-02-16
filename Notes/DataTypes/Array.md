@@ -7,6 +7,8 @@
 - nested arrays are flattened to a one-dimensional array.
     - **Example:** `{{1, 2}, {3, 4}} = {1, 2, 3, 4}`
 - if you need a multi-dimensional arrays, create a [complex data type](./Complex.md)
+
+- **[Arrays](./Array.md):** collection of data tha relates to each other in some way
 ---
 
 ## Accessing array items at an index

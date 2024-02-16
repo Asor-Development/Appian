@@ -6,6 +6,6 @@
 - dataSubset, EntityData etc...
     - DataSubset: holds the data returned by a query, represents the structure of the data returned by a query, if data needs to be identified as a DataSubset you can use the `todatasubset()` function
 
-- **[Arrays](./Array.md):** collection of data tha relates to each other in some way
+
 
 ---
