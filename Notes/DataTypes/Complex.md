@@ -1,11 +1,4 @@
-# Data Types
-
-## Primitive System Data Types
-**Represent a single piece of data**
-
-- text, number, booleans and dates
-
-## Complex Data Types
+# Complex System Data Types
 - structure of predefined fields
 - cannot  be modified
 - structure consist of pre-defined fields that are used by components within Appian
@@ -13,24 +6,8 @@
 - dataSubset, EntityData etc...
     - DataSubset: holds the data returned by a query, represents the structure of the data returned by a query, if data needs to be identified as a DataSubset you can use the `todatasubset()` function
 
-
-## Custom Dtat Types (CDTs)
-- object that contains user defined fields, paired with their associated data types
-- used to group related data ponits to be usde as a reference throughout app development
-- does not store data it supports the organization of the data
-- helps makes sure related data stays together
-- to reference a CDT in and expression `type!nameOfObject`()
-
-
-### Complex Data Types
-
-##### Arrays
-- collection of data tha relates to each other in some way
-- indices start at 1
-- `{100, 235, 345, 426, 534}[2]` returns 2356
-
-##### Dictionary
-- most common
+- **[Arrays](./Array.md):** collection of data tha relates to each other in some way
+- **[Dictionary](./Dictionary.md):** most common
 - each value is tied to a specific key
 - the key is typically a descriptive word of what the value represents
 - `{key1: "value1", key2: "value2"}`
@@ -43,3 +20,4 @@
 - map data type and `map()` function allow us to know the underlying data type of data sets
 - `a!map(key1: "value1", key2: "value2").ke1`
 - avoids conversions/casting
+---

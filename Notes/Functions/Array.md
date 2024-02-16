@@ -51,7 +51,16 @@
 ## `index(data, index, default )`
 - returns the data at a specified index if it is valid or else returns the default value
 - can return the values of an array at the indexes you gathered with the wherecontains() function
+- **Single index:** `index({100, 235, 345, 426, 534}, 5, 1)` returns 534
+- **Multiple indexes:** `index({100, 235, 345, 426, 534}, {1, 4}, 1)` returns {100, 426}
+- **Repeated indexes:** `index({100, 235, 345, 426, 534}, {1, 4, 4}, 1)` returns {100, 426, 426}
+- `index({100, 235, 345, 426, 534}, 7, 1000)` returns 1000
+- return the value of a map field using the field name as the index argument
+    - returns "Purple"
 
+    ![return value using name field of a map](../images/indexbyfieldname.png)
+
+- Check out the [Documentation](https://docs.appian.com/suite/help/23.4/fnc_array_index.html)  For More Info
 ---
 
 ## `length( array )`
