@@ -8,8 +8,4 @@
 
 - **[Arrays](./Array.md):** collection of data tha relates to each other in some way
 
-###### Map
-- map data type and `map()` function allow us to know the underlying data type of data sets
-- `a!map(key1: "value1", key2: "value2").ke1`
-- avoids conversions/casting
 ---
