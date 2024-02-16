@@ -66,10 +66,16 @@
 ## `length( array )`
 - function returns the number of elements in an array
 - never counts null values
+---
 
 ## `count( value )`
 - returns the number items in all arrays passed to the function
 - counts null parameters 
+---
 
+## `ldrop( array, number )`
+- drops a given number of values from the left side(front) of an array and returns the resulting array
+---
 
--- will return 7
+## `rdrop( array, number )`
+- drops a given number of values from the right side(back) of an array, and returns the resulting array

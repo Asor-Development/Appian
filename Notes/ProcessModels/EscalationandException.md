@@ -1,6 +1,3 @@
-
-
-
 ## Escalation and Exception
 - both used in process models
 - **Escalation:**

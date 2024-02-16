@@ -3,7 +3,7 @@
 2. What do you know about Object UUIDs?[Answer](./Objects.md#uuids)
 3. Difference between toString() and touniformString()? [Answer](./Functions/Conversion.md#convert-a-value-to-text)
 4. What is an Integration, Web API, and Connected System? [Answer](./Integrations/README.md)
-5. What is Escalations and Exception? [Answer](./ProcessModels/EscalationandException.md)
+5. **What is the difference between Escalations and Exceptions?** [Answer](./ProcessModels/EscalationandException.md)
 6. What are some Interface Best Practices? [Answer](./OtherObjects/Interfaces.md#interface-best-practice)
 7. What are some Process Model Best Practices? [Answer](./ProcessModels/ProcessModels.md#process-model-best-practices)
 8. How do you check for errors in a Process Model? [Answer](./ProcessModels/ProcessModels.md#errors-in-a-process-model)
@@ -26,7 +26,7 @@
 26. How can you use `a!refreshVariable()` to change default behavior? [Answer](./OtherObjects/LocalVariables.md#disable-default-refresh-behavior-arefreshvariable)
 27. How many views can be added in a record?
 28. How do you check if a user name is taken or not?
-29. Array Functions
+29. Array Functions? [Answer]()
     - where
     - wherecontains
     - index
@@ -35,22 +35,24 @@
     - joinarray
     - reverse
     - append
-30. Conversion Functions
+    - ldrop
+    - rdrop
+30. Conversion Functions? [Answer]()
     - tostring
     - touniformstring
-31. Text Functions
+31. Text Functions? [Answer]()
     - len
-32. Looping Functions
+32. Looping Functions? [Answer]()
     - forEach
-33. People Functions
+33. People Functions? [Answer]()
     - isusernametaken
-34. Mathematical Functions    
+34. Mathematical Functions? [Answer]()    
     - enumurate
     - mod
-35. Scripting Functions
+35. Scripting Functions? [Answer]()
     - repeat
-
-
+36. DisplayValue() function? [Answer]()
+37. What are the different levels of Security in a Process Model? [Answer]()
 
 
 [Answer]()
