@@ -1,6 +1,6 @@
 # Complex System Data Types
 - structure of predefined fields
-- cannot  be modified
+- cannot be modified
 - structure consist of pre-defined fields that are used by components within Appian
 - if you need to transform a set of data so it is reconized as a complex data type, you might need to used the `cast()` function
 - dataSubset, EntityData etc...

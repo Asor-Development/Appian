@@ -1,5 +1,6 @@
 # CDTs (Custom Data Types)
 **A custom data type is a user-defined data object that structurally mimics the logical grouping of related data created within the table of your relational database.  It, along with the data store, is what allows you to structure and write data to the database**
+- a reusable data structure with a specific name and predefined fields
 - CDTs are a list of data fields that correspond to a record type and/or associated database table
 - The primary purpose of CDTs is to define data structure and WRITE data back to the database
 - can then be used by other objects to share data
