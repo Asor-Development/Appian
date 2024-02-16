@@ -11,3 +11,8 @@
 ## Interface Best Practice
 - when using complex logic, comments should be used to communicate to other developers what it is doing, or give the Jira ID
 - when querying data create an expression rule and call it from the interface, that way it can be more dynamic or generic 
+
+
+---
+### Validation Groups
+validationGroup (Text): When present, this field is only validated when a button in the same validation group is pressed

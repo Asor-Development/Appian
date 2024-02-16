@@ -26,19 +26,32 @@
 26. How can you use `a!refreshVariable()` to change default behavior? [Answer](./OtherObjects/LocalVariables.md#disable-default-refresh-behavior-arefreshvariable)
 27. How many views can be added in a record?
 28. How do you check if a user name is taken or not?
-29. Functions
-    - repeat
-    - mod
-    - joinarray
-    - enumurate
-    - tostring
-    - touniformstring
-    - isusernametaken
-    - forEach
-    - reverse
+29. Array Functions
     - where
     - wherecontains
     - index
+    - length
+    - count
+    - joinarray
+    - reverse
+    - append
+30. Conversion Functions
+    - tostring
+    - touniformstring
+31. Text Functions
+    - len
+32. Looping Functions
+    - forEach
+33. People Functions
+    - isusernametaken
+34. Mathematical Functions    
+    - enumurate
+    - mod
+35. Scripting Functions
+    - repeat
+
+
+
 
 [Answer]()
 [Answer]()

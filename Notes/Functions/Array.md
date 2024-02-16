@@ -1,5 +1,4 @@
-
-
+# Array Functions
 ## `append(array, value)`
 - append a structure or value to an array
 - ex. If we have an editable grid and we need to add rows, we can use the append function to add a blank structure to the exsiting array
@@ -11,7 +10,7 @@
 
 ---
 
-## reverse( array )
+## `reverse( array )`
 - returns an array in reverse order
 
 ## `where(array)`
@@ -54,3 +53,14 @@
 - can return the values of an array at the indexes you gathered with the wherecontains() function
 
 ---
+
+## `length( array )`
+- function returns the number of elements in an array
+- never counts null values
+
+## `count( value )`
+- returns the number items in all arrays passed to the function
+- counts null parameters 
+
+
+-- will return 7
