@@ -74,6 +74,13 @@
 ## Errors in a process model
 - you can set alerts to send alert messages to some person or groups, users do not always report issues
 - you can also check for errors in the Health Check
+- can view all errors by selecting the Show resolved errors checkbox in the All Process Errors and Process Details dialogs in Appian Designer and the Process Modeler
+- Appian Designer  ---> All Process Errors
+    -  only unresolved errors are shown for the developer's convenience
+    - can view all errors by selecting the Show resolved errors checkbox
+- Process Modeler ---> Process Details
+    - only unresolved errors are shown for the developer's convenience
+    - can view all errors by selecting the Show resolved errors checkbox
 
 
 ## Process Model Best Practices
