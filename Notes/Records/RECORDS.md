@@ -6,6 +6,7 @@
 - users can take informed action when viewing the data
     - using sites, tempo, or their organizations web pages that have embedded interfaces
     - actions and related actions are defined in records
+- More on Record Actions [here](./RecordActions.md)
 
 ## Source of Data
 - record data can come from a number of places (relation databases, appian processes and web services)

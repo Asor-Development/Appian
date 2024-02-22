@@ -25,10 +25,13 @@
     - data sync will query an internal version of you data(cache), data is closer to the user and increases the speed and performace of the record type 
     - if there is an issue syncing your data, ensure that the Skip Failed Syncs is turned on(Access the Data Sync tab), to use data from the last successful sync and to notify administrators, and see relevant details are shown under Sync History
     - you can select and configure the fields you want to see in the record type object
-2. **Records**
-3. **Record list**
+2. **Records Actions** a link to a process model that a user can start directly from the record list
+    - More on Record Actions [here](./RecordActions.md)
+3. **Record list** drillable list that user can used to search and filter to find records, list of all of the objects records
+    - More on Record List [here](./RecordList.md)
 4. **Record Centric Approach:** Design objects around record types
 5. **Relationships:** creates a link between fields in the two record type
+    - More on Record Relationships [here](./Relationships.md)
 6. **Record Links:** can help users to view relevant information that supports the record, but doesn’t display directly in it
 
 ---
