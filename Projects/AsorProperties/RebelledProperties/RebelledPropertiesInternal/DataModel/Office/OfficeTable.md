@@ -7,7 +7,9 @@
     - TEXT        
 - [x] officeLocation
     - TEXT 
-    
+
+- Create Table SQL
+
         create table `RPI_OFFICE` (
         `ID` integer not null auto_increment,
         `OFFICE_ID` varchar(255),

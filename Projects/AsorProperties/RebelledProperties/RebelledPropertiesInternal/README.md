@@ -9,7 +9,7 @@
 **If you application works as planned what would it look like and what would be results**
 - Improve employee management and communication between offices
 
-1. [Data Model]()
+1. [Data Model](./DataModel/DATAMODEL.md)
 ---
 
 

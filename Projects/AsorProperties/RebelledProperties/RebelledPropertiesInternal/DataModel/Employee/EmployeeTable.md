@@ -44,7 +44,7 @@ Mortgage brokers help individuals negotiate the best deal when getting a mortgag
 
 ---
 
-- Create SQL
+- Create Table SQL
     
         create table `RPI_EMPLOYEE` (
             `ID` integer not null auto_increment,
