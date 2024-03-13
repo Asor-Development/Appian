@@ -2,7 +2,7 @@
 
 ##### Purpose and Goals
 **Building the Asor Properties App so we can track properties and maintenance data in order to manage property availability and keep complete maintenance records for every property**
-- to resolve Steam's problem of keep track of properties and keeping a complete maintenace history for each property
+- to resolve problem of keep track of properties and keeping a complete maintenace history for each property
 
 #### Measurable Results
 **If you application works as planned what would it look like and what would be results**

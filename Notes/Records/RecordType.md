@@ -1,6 +1,7 @@
 # Record Type Object
 **A record type is an Appian design object that enables you to configure Appian Records**
 **When desinging an applications you should start with record types and they way you design them matters because user need to able to look at a record, find what they need and take action on it quickly**
+- can display data from relational databases, Appian processes, integrations with external web services and APIs, or any combination of the above
 - When creating a new record type you do not have to save it to a folder
 - the plural name is what business users will see in their Site, so pick the name that will make sense to your business users
 - field references are specific to each record type and environment

@@ -4,6 +4,8 @@
 - create interactive filters so users can determine which records appear on the record list
 - User filters can also be used in grids outside the record list
 
+Lastly, a big mistake designers make is not thinking about how users will search for and find the data they need in a record type. Users need filters to narrow down and search the list of records, especially when the list is large. Developers need to find out how users might search for records and build user filters that meet their needs.
+
 ### Source Filters
 **When your record type has data sync enabled, you can apply source filters to specify which source data is synced and available in Appian. Source filters exclude unnecessary data so that you work with only relevant data in your application.**
 

@@ -59,17 +59,24 @@
     - Once we configure record events are configured, you can capture and display events throughout our application
 
 ---
+Theere are 3 possible sources of data for your Appian Records
 
+Entity-backed - the data for these comes directly from a database table or view - i.e. a database "entity"
+Process-backed - the data for these comes from Process instances in your Appian application environment 
+Service-backed - the data for these comes from the result of an Expression Rule - which in turn could come from any number of different sources e.g. web services, database tables, or a combination of these
 ## Process Backed Records
-- First, recall that record types can display data from relational databases, Appian processes, integrations with external web services and APIs, or any combination of the above. 
+- rarely used as we persist all relevant process data to DB. Did not do that in recent years since SAIL and Records was introduced in 2015.
 - Process-backed records retrieve data from Appian’s own internal databases, which are not meant for long-term data storage like relational databases
     - Appian’s databases are what we call transactional and ensure quick retrieval of data. While there are use cases for process-backed records, such as when you want to view and act on processes, record types that use relational databases are more often the solution to common design patterns and requirements.
+- **Try to avoid**
+  - Creating process-backed records unnecessarily
+  - Creating records without user filters
 
-Lastly, a big mistake designers make is not thinking about how users will search for and find the data they need in a record type. Users need filters to narrow down and search the list of records, especially when the list is large. Developers need to find out how users might search for records and build user filters that meet their needs.
+  Yes, as best practice is to archive/delete your process instances on a short schedule, and process backed records only work on processes still in memory (not archived), there are not many use cases for this anymore.  I don't have any.
 
-## Try to avoid
-- Creating process-backed records unnecessarily
-- Creating records without user filters
+The only time I use process reports is in a few situations where I need to check a process variable contents of a running process, which does not occur often since we can persist to the DB and check there.  
+
+
 
 ---
 
