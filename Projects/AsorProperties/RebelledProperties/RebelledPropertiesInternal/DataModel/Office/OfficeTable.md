@@ -7,5 +7,12 @@
     - TEXT        
 - [x] officeLocation
     - TEXT 
+    
+        create table `RPI_OFFICE` (
+        `ID` integer not null auto_increment,
+        `OFFICE_ID` varchar(255),
+        `OFFICE_LOCATION` varchar(255),
+        primary key (`ID`)
+        ) engine=InnoDB;
 
-- [Data](./OfficeData.md)
+**Find office table data [here](./OfficeData.md)**
