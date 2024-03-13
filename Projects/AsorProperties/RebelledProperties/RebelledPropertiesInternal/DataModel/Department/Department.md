@@ -2,8 +2,10 @@
 
 
 ## TABLE COLUMNS
+- [x] id
+    - Number(INTEGER)
 - [x]departmentId
-    - INT
+    - Number(INTEGER)
 - [x]departmentName
     - TEXT
 

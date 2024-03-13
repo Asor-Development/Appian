@@ -13,7 +13,7 @@
 
 ## TABLE COLUMNS
 - [x] `id`
-    - INT
+    - Number (Integer)
     - PK, Auto Increment
 - [x] `empId`
     - TEXT
@@ -32,10 +32,10 @@
 - [x] `birthDate`
     - DATE
 - [x] `salary`
-    - INT
+    - Number (Integer)
 - [x] `departmentId`
-    - INT
-    - FK(departmant id)
+    - Number (Integer)
+    - FK that references id field of the departments table 
 
 ---
 
