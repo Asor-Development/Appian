@@ -2,7 +2,7 @@
 
 - [Department](./Appian/RebelledPropertiesInternal/Department/Department.md)
 - [Employee](./Appian/RebelledPropertiesInternal/Employee/EmployeeTable.md)
-- [Office](./Appian/RebelledPropertiesInternal/OfficeLocation/OfficeLocation.md)
+- [Office](./Office/OfficeTable.md)
 - []()
 - []()
 - []()
