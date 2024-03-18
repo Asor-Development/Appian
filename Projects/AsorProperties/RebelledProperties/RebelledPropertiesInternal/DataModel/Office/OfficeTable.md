@@ -8,16 +8,6 @@
 - [x] officeLocation
     - TEXT 
 
-## EmployeeOfficeLocation Table
-- [x] id
-    - Number (Integer)
-- [x] empId
-    - Number (Integer)
-    - FK that references id field of the employees table        
-- [x] officeId
-    - Number (Integer)
-    - FK that references id field of the office table 
-
 - Create Table SQL
 
         create table `RPI_OFFICE` (
